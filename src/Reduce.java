@@ -1,7 +1,6 @@
 public class Reduce {
-    public static void main(String[] args) {
+    public static void main(int n) {
         int steps = 0;
-        int n = 100;
 
         while (n != 0) {
             if (n % 2 == 0) {

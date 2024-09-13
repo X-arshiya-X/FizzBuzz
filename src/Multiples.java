@@ -1,10 +1,10 @@
 public class Multiples {
-    public static void main(String[] args) {
+    public static void main(int n, int mult1, int mult2) {
 
         int count = 0;
 
-        for (int i = 0; i < 1000; i++) {
-            if (i % 3 == 0 || i % 5 == 0) {
+        for (int i = 0; i < n; i++) {
+            if (i % mult1 == 0 || i % mult2 == 0) {
                 count++;
             }
         }
