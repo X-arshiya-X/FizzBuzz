@@ -1,5 +1,5 @@
 public class Reduce {
-    public static void main(int n) {
+    public static int main(int n) {
         int steps = 0;
 
         while (n != 0) {
@@ -14,5 +14,6 @@ public class Reduce {
         }
 
         System.out.println(steps);
+        return steps;
     }
 }

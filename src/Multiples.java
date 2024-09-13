@@ -1,5 +1,5 @@
 public class Multiples {
-    public static void main(int n, int mult1, int mult2) {
+    public static int main(int n, int mult1, int mult2) {
 
         int count = 0;
 
@@ -10,5 +10,6 @@ public class Multiples {
         }
 
         System.out.println(count);
+        return count;
     }
 }
